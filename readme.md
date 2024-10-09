@@ -1,10 +1,12 @@
 **Q. How would you deal with this problem if there wasn’t a 1-1 correspondence between the entities mentioned in the text and the name of the entities in the graph?**
+
 I would approach this problem using:
 - Fuzzy Matching to find the close matches between text mentions and entity names in the graph
 - Normalising the text before matching
 - Using machine learning approach
 
 # Improvements
+
 Below are few improvements I would've done if I had more time:
 - Using networkx for graph representation:
 	- The current approach includes storing nodes and edges separately, and traversing all of them for each query
